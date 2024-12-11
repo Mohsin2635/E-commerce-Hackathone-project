@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className="w-full bg-transparent h-20 flex justify-between items-center md:px-[12%]">
+            <div className="w-full bg-transparent h-20 flex justify-between items-center md:px-[12%] px-[2%]">
 
 
                 <Link href="/"><h3 className="text-[24px] w-[187px] leading-[32px] font-bold cursor-pointer">Bandage</h3>
