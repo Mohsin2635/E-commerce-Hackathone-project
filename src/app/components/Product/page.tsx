@@ -31,6 +31,7 @@ import Footer from "../Footer";
 const page = () => {
     return (
         <>
+            <div className="overflow-hidden">
             <div className="w-full h-[202px] md:h-full py-6 md:flex justify-between md:items-center md:px-[12%]">
                 <div className="w-full h-[80px] md:h-full py-6 md:py-0 text-[#252B42] text-2xl text-center md:text-left font-bold">
                     Shop
@@ -122,7 +123,7 @@ const page = () => {
             <div className="md:hidden block">
                 <Footer />
             </div>
-
+</div>
         </>
     )
 }
