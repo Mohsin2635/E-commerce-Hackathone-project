@@ -24,6 +24,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
+      <div className="overflow-hidden">
 
       {/* Hero Section */}
       <div className="overflow-hidden relative" >
@@ -148,7 +149,7 @@ export default function Home() {
         <Footer/>
       </div>
 
-
+</div>
 
     </>
   );
