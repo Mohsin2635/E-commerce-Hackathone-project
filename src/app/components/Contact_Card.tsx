@@ -4,6 +4,7 @@ import Image from "next/image";
 const Contact_Card = (props: any) => {
     return (
         <>
+            <div className="overflow-hidden">
             <div className={`${props.pt}`}>
                 <div className={`w-[327px] ${props.bg} ${props.text} h-[333px] md:w-[327px] py-[50px] px-10 space-y-[15px] place-items-center rounded hover:scale-105 duration-500 cursor-pointer my-10`}>
                     <div className="w-[72px] h-[72px]">
@@ -22,6 +23,7 @@ const Contact_Card = (props: any) => {
 
                 </div>
             </div>
+                </div>
 
         </>
     )
