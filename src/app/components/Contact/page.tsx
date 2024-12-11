@@ -15,6 +15,7 @@ import Footer from "../Footer";
 const Page = () => {
   return (
     <>
+      <div className="overflow-hidden">
       <div className="w-full h-[1071px] md:h-full md:flex md:px-[12%] justify-between items-center">
         <div className="w-full h-[590px] md:h-[518px] py-6 md:py-3 space-y-5 md:space-y-2 place-items-center md:place-items-start overflow-hidden">
           <p className="font-bold text-[#252B42]">CONTACT US</p>
@@ -78,6 +79,7 @@ const Page = () => {
       <div>
         <Footer />
       </div>
+        </div>
     </>
   );
 };
