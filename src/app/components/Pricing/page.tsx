@@ -20,6 +20,7 @@ import Footer from "../Footer";
 const page = () => {
     return (
         <>
+            <div className="overflow-hidden">
             <div className="w-full h-[202px] py-6 space-y-5">
                 <div className="w-full h-[80px] py-6 text-[#252B42] text-2xl text-center font-bold md:text-5xl">
                     Simple Pricing
@@ -162,7 +163,7 @@ const page = () => {
             <div>
                 <Footer />
             </div>
-
+</div>
         </>
     )
 }
