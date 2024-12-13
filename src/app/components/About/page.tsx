@@ -89,7 +89,7 @@ const page = () => {
         </div>
         {/* Video Section */}
         <div className="w-full h-full py-16 place-items-center bg-white place-content-center lg:px-[12%] px-[5%]">
-          <video  controls autoPlay preload="metadata" className="w-auto h-auto rounded-2xl -z-50">
+          <video  controls preload="metadata" className="w-auto h-auto rounded-2xl ">
             <source src="/video.mp4" type="video/mp4" ></source>
           </video>
         </div>
