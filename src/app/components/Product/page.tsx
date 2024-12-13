@@ -57,14 +57,14 @@ const page = () => {
                 </div>
                 {/* Card section */}
 
-                <div className="w-full h-[1628px] sm:h-full bg-[#FAFAFA] place-items-center  lg:px-[12%] px-[2%] overflow-hidden">
-                    <div className="w-[333px] h-[1615px] sm:w-full sm:h-full md:place-items-start place-items-center sm:py-0 py-6 sm:space-y-0 space-y-[18px] overflow-hidden">
-                        <div className="h-[930px] sm:h-full md:w-full sm:pb-12 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 justify-between gap-5 lg:gap-1">
-                            <Image src={imaeg1} alt="" className="w-auto h-auto: hover:scale-95 duration-500 cursor-pointer" />
-                            <Image src={imaeg2} alt="" className="w-auto h-auto hover:scale-95 duration-500 cursor-pointer" />
-                            <Image src={imaeg3} alt="" className="w-auto h-auto hover:scale-95 duration-500 cursor-pointer" />
-                            <Image src={imaeg4} alt="" className="w-auto h-auto hover:scale-95 duration-500 cursor-pointer" />
-                            <Image src={imaeg5} alt="" className="w-auto h-auto hover:scale-95 duration-500 cursor-pointer" />
+                <div className="w-full h-full bg-[#FAFAFA] place-items-center  lg:px-[12%] px-[2%] overflow-hidden pb-5 sm:pb-0">
+                    <div className="w-[333px] sm:w-full h-full place-items-center sm:py-0 py-6 sm:space-y-0 space-y-[18px] overflow-hidden">
+                        <div className="h-full w-full sm:pb-12 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 justify-between gap-5 lg:gap-1">
+                            <Image src={imaeg1} alt="" className="w-full h-auto hover:scale-95 duration-500 cursor-pointer" />
+                            <Image src={imaeg2} alt="" className="w-full h-auto hover:scale-95 duration-500 cursor-pointer" />
+                            <Image src={imaeg3} alt="" className="w-full h-auto hover:scale-95 duration-500 cursor-pointer" />
+                            <Image src={imaeg4} alt="" className="w-full h-auto hover:scale-95 duration-500 cursor-pointer" />
+                            <Image src={imaeg5} alt="" className="w-full h-auto hover:scale-95 duration-500 cursor-pointer" />
                         </div>
                     </div>
                 </div>
