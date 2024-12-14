@@ -28,8 +28,8 @@ const page = () => {
         <Navbar />
 
         {/* About section */}
-        <div className="w-full h-full space-y-[41px] lg:space-y-0 bg-white place-items-center lg:px-[12%] px-[2%] lg:flex">
-          <div className="w-full py-6 space-y-5 place-items-center place-content-center lg:place-items-start">
+        <div className="w-full h-full space-y-[41px] lg:space-y-0 bg-white place-items-center lg:px-[12%] px-[2%] lg:flex justify-between xl:justify-around 2xl:justify-evenly place-content-center">
+          <div className=" py-6 space-y-5 place-items-center place-content-center lg:place-items-start">
             <p className="text-[#252B42] font-bold ">ABOUT COMPANY</p>
             <div className="w-full h-[80px] py-6 text-[#252B42] text-3xl lg:text-start text-center font-bold md:text-5xl">
               About Us
@@ -50,7 +50,7 @@ const page = () => {
             </div>
 
           </div>
-          <div className="w-full place-items-center">
+          <div className="place-items-center">
             <Image src={None} alt="None" className="w-[620px] h-full object-fill" />
           </div>
 
@@ -58,7 +58,7 @@ const page = () => {
         {/* problems trying */}
 
         <div className="w-full h-[500px] md:h-full py-[80px] md:py-6 lg:px-[12%] bg-white px-[2%]">
-          <div className="w-full h-[340px] md:h-full space-y-[60px] place-content-center place-items-center md:flex justify-between">
+          <div className="w-full h-[340px] md:h-full space-y-[60px] place-content-center place-items-center md:flex justify-between 2xl:justify-evenly">
             <div className="space-y-10 place-items-center">
               <p className="text-[#E74040] text-sm">Problems trying</p>
               <h3 className="w-[269px] md:w-[350px] lg:w-[450px] h-full text-[#252B42] font-bold text-center md:text-start text-2xl">Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.</h3>
@@ -68,7 +68,7 @@ const page = () => {
         </div>
         {/* customer reviews */}
         <div className="w-full h-full py-[50px] md:py-10 place-items-center bg-white lg:px-[12%] px-[2%]">
-          <div className="w-[329px] h-full md:w-full space-y-[100px] md:space-y-0 text-[#252B42] place-items-center md:flex justify-between items-center">
+          <div className="w-[329px] h-full md:w-full space-y-[100px] md:space-y-0 text-[#252B42] place-items-center md:flex justify-between 2xl:justify-evenly items-center">
             <div className="w-[238px] h-[104px] place-items-center space-y-3">
               <h1 className="text-6xl font-bold text-center">15K</h1>
               <h5 className="text-[#737373] font-bold">Happy Customers</h5>
@@ -89,7 +89,7 @@ const page = () => {
         </div>
         {/* Video Section */}
         <div className="w-full h-full py-16 place-items-center bg-white place-content-center lg:px-[12%] px-[5%]">
-          <video  controls preload="metadata" className="w-auto h-auto rounded-2xl ">
+          <video controls preload="metadata" className="w-auto h-auto rounded-2xl ">
             <source src="/video.mp4" type="video/mp4" ></source>
           </video>
         </div>
@@ -113,19 +113,18 @@ const page = () => {
             <p className="font-bold text-sm text-[#737373] text-center md:w-[400px]">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
           </div>
         </div>
-        <div className="w-full h-full py-12 place-items-center md:pt-0 pt-[110px] bg-[#FAFAFA] md:space-y-0 space-y-20 md:flex md:gap-1 xl:gap-12 px-[2%]">
-
-          <Image src={imaeg10} alt="" className="md:w-2/12" />
-          <Image src={imaeg11} alt="" className="md:w-2/12" />
-          <Image src={imaeg12} alt="" className="md:w-2/12" />
-          <Image src={imaeg13} alt="" className="md:w-2/12" />
-          <Image src={imaeg14} alt="" className="md:w-2/12" />
-          <Image src={imaeg15} alt="" className="md:w-2/12" />
+        <div className="w-full h-[1173px] md:h-[175px] md:py-0 py-10 place-items-center md:pt-0 pt-[110px] bg-[#FAFAFA] md:space-y-0 space-y-20 md:flex justify-between 2xl:justify-evenly items-center lg:px-[12%] px-[2%]">
+          <Image src={imaeg10} alt="" className="" />
+          <Image src={imaeg11} alt="" className="" />
+          <Image src={imaeg12} alt="" className="" />
+          <Image src={imaeg13} alt="" className="" />
+          <Image src={imaeg14} alt="" className="" />
+          <Image src={imaeg15} alt="" className="" />
         </div>
         {/* Work with us */}
         <div className="flex">
           <div className="w-full h-[520px] bg-[#2A7CC7] place-items-center place-content-center">
-            <div className="w-[328px] h-[288px] md:w-[500px] space-y-[36px] text-white font-bold text-center place-items-center md:text-start md:place-items-start">
+            <div className="w-[328px] h-[288px] md:w-[500px] space-y-[36px] text-white font-bold text-center place-items-center md:text-start md:place-items-start 2xl:text-center 2xl:place-items-center">
               <h5>WORK WITH US</h5>
               <h5 className="text-5xl leading-[50px]">Now Let’s grow Yours</h5>
               <p className="text-sm">The gradual accumulation of information about atomic and
@@ -133,7 +132,7 @@ const page = () => {
               <button className="border-[1px] border-[#FAFAFA] py-4 px-10 rounded hover:bg-[#3370a8] duration-300">Try Now</button>
             </div>
           </div>
-          <div className="w-[450px] h-[520px] lg:w-[590px] hidden md:block">
+          <div className="w-[450px] h-[520px] lg:w-[590px] 2xl:w-[700px] hidden md:block 2xl:hidden">
             <Image src={product1} alt="" className="w-full h-full object-cover" />
           </div>
         </div>
@@ -141,12 +140,6 @@ const page = () => {
         <div>
           <Footer />
         </div>
-
-
-
-
-
-
 
       </div>
     </>
