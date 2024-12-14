@@ -85,13 +85,13 @@ const page = () => {
                     </div>
                 </div>
                 {/* pagination */}
-                <div className="w-full h-[1173px] md:h-[175px] md:py-0 py-10 place-items-center md:pt-0 pt-[110px] bg-[#FAFAFA] md:space-y-0 space-y-20 md:flex md:gap-0 xl:gap-3 lg:px-[12%] px-[2%] hidden">
-                    <Image src={imaeg10} alt="" className="md:w-2/12" />
-                    <Image src={imaeg11} alt="" className="md:w-2/12" />
-                    <Image src={imaeg12} alt="" className="md:w-2/12" />
-                    <Image src={imaeg13} alt="" className="md:w-2/12" />
-                    <Image src={imaeg14} alt="" className="md:w-2/12" />
-                    <Image src={imaeg15} alt="" className="md:w-2/12" />
+                <div className="w-full h-[1173px] md:h-[175px] md:py-0 py-10 place-items-center md:pt-0 pt-[110px] bg-[#FAFAFA] md:space-y-0 space-y-20 md:flex justify-between 2xl:justify-evenly items-center lg:px-[12%] px-[2%]">
+                    <Image src={imaeg10} alt="" className="" />
+                    <Image src={imaeg11} alt="" className="" />
+                    <Image src={imaeg12} alt="" className="" />
+                    <Image src={imaeg13} alt="" className="" />
+                    <Image src={imaeg14} alt="" className="" />
+                    <Image src={imaeg15} alt="" className="" />
                 </div>
                 {/* Footer */}
                 <div className="hidden md:block">
