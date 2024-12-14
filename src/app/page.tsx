@@ -36,7 +36,7 @@ export default function Home() {
         {/* Hero Section */}
         <div className="relative" >
           <Image src={hero_image} alt="" className="w-full h-[753px] object-cover" />
-          <div className="md:w-[1044px] md:h-[427px] h-[361px] space-y-[35px] text-[#FFFFFF] place-items-center md:place-items-start absolute md:top-44 top-56 left-16 md:left-[197px] z-30">
+          <div className="md:w-[1044px] md:h-[427px] h-[361px] space-y-[35px] text-[#FFFFFF] place-items-center md:place-items-start absolute md:top-44 top-56 left-16 md:left-[197px] 2xl:left-[400px] place-content-center z-30">
             <h5 className="font-bold">SUMMER 2020</h5>
             <h2 className="text-[40px] leading-[50px] w-[268px] h-[100px] md:w-full text-center md:text-start font-bold">NEW COLLECTION</h2>
             <p className="text-[20px] leading-[30px] w-[291px] md:w-[376px] md:h-[60px] h-[90px] text-center md:text-start font-normal">We know how large objects
@@ -45,28 +45,30 @@ export default function Home() {
           </div>
         </div>
         {/* Catogory */}
-        <div className="w-full h-[1850px] md:h-[770px] bg-[#FAFAFA] lg:px-[12%] px-[2%] place-items-center md:place-items-start">
+        <div className="w-full h-full bg-[#FAFAFA] lg:px-[11%] xl:px-[12%] px-[2%] place-items-center">
           <div className="py-20 w-[333px] md:w-full h-full space-y-12">
             <div className="w-full h-[82px] place-items-center space-y-[10px]">
               <h3 className="text-[#252B42] text-2xl font-bold">EDITOR’S PICK</h3>
               <p className="w-[196px] md:w-full h-[40px] text-center text-sm">Problems trying to resolve
                 the conflict between </p>
             </div>
-            <div className="w-full h-[1560px] md:h-full space-y-[30px] md:space-y-0 md:flex justify-between ">
-              <div className="w-full md:w-[510px] h-[500px] md:px-12 relative bg-[#b4abab40]">
+            <div className="w-full h-full space-y-[30px] xl:space-y-0 xl:flex gap-5 place-content-center">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:flex gap-5 justify-evenly place-items-center">
+              <div className="w-full xl:w-[510px] md:w-[400px] h-[500px] xl:px-12 relative bg-[#b4abab40]">
                 <Image src={Man} alt="" className="w-full h-full" />
                 <p className="w-[170px] h-[48px] bg-white text-[#252B42] font-bold flex items-center justify-center rounded absolute top-[426px] left-[31px] hover:bg-[#ee4c37] duration-300 cursor-pointer">MEN</p>
               </div>
-              <div className="w-full h-[500px] md:w-[240px] relative">
+              <div className="w-full h-[500px] md:w-[400px] xl:w-[240px] 2xl:w-[510px] relative">
                 <Image src={woman} alt="" className="w-full h-full" />
                 <p className="w-[170px] h-[48px] bg-white text-[#252B42] font-bold flex items-center justify-center rounded absolute top-[426px] left-[31px] hover:bg-[#ee4c37] duration-300 cursor-pointer">WOMEN</p>
               </div>
-              <div className="w-full h-[500px] md:w-[240px] space-y-4">
-                <div className="w-full md:w-[240px] h-[242px] relative">
+              </div>
+              <div className=" h-full md:flex xl:flex-col xl:h-[500px] space-y-[30px] md:space-y-0 gap-10 xl:gap-5 place-content-center">
+                <div className="w-full md:w-[400px] xl:w-[240px] 2xl:w-[300px] h-[242px] relative place-items-center">
                   <Image src={assoseries} alt="" className="w-full h-full" />
                   <p className="w-[170px] h-[48px] bg-white text-[#252B42] font-bold flex items-center justify-center rounded absolute top-[171px] left-[14px] hover:bg-[#ee4c37] duration-300 cursor-pointer">ACCESSORIES</p>
                 </div>
-                <div className="w-full md:w-[240px] h-[242px] relative">
+                <div className="w-full md:w-[400px] xl:w-[240px] h-[242px] 2xl:w-[300px] relative">
                   <Image src={kids} alt="" className="w-full h-full" />
                   <p className="w-[170px] h-[48px] bg-white text-[#252B42] font-bold flex items-center justify-center rounded absolute top-[171px] left-[14px] hover:bg-[#ee4c37] duration-300 cursor-pointer ">KIDS</p>
                 </div>
@@ -97,8 +99,8 @@ export default function Home() {
           </div>
         </div>
         {/* Summer Section */}
-        <div className="w-full h-[1230px] md:h-[709px] rounded-[5px] border-[1px] border-[#DEDEDE] bg-[#23856D] lg:px-[12%] px-[2%] overflow-hidden">
-          <div className="py-[112px] space-y-[80px] md:space-y-0 w-full h-[1252px] md:h-full md:flex justify-between items-center">
+        <div className="w-full h-[1230px] md:h-[709px] rounded-[5px] border-[1px] border-[#DEDEDE] bg-[#23856D] px-[2%] overflow-hidden">
+          <div className="py-[112px] space-y-[80px] md:space-y-0 w-full h-[1252px] md:h-full md:flex gap-[15%] items-center place-content-center">
             <div className="h-[429px] space-y-[35px] place-items-center md:place-items-start text-white">
               <h4 className="text-xl">SUMMER 2020</h4>
               <h2 className="w-[246px] h-[100px] font-bold text-[40px] leading-[50px] text-center md:text-start">Vita Classic Product</h2>
@@ -119,7 +121,7 @@ export default function Home() {
 
         </div>
         {/* universe section */}
-        <div className="w-full h-[999px] md:h-[682px] pt-[120px] md:pt-0 md:flex md:flex-row-reverse justify-between items-center lg:px-[12%] px-[2%]">
+        <div className="w-full h-full pt-[120px] md:pt-0 md:flex md:flex-row-reverse gap-5 xl:gap-[10%] place-content-center items-center px-[2%]">
           <div className="h-[476px] md:w-[573px] md:h-[326px] space-y-[32px] place-items-center md:place-items-start md:px-10">
             <h5 className="font-bold text-[#BDBDBD]">SUMMER 2020</h5>
             <h2 className="w-[303px] md:w-[375px] h-[140px] text-[40px] leading-[50px] font-bold text-center md:text-start">Part of the
@@ -131,7 +133,7 @@ export default function Home() {
               <button className=" h-[52px] px-[40px] py-[15px] text-[14px] text-[#23A6F0] border-[1px] border-[#23A6F0] hover:text-white hover:bg-[#3f90be] duration-300 rounded-[5px]">Learn More</button>
             </div>
           </div>
-          <div className="w-full h-[407px] md:w-[704px] md:h-[682px] ">
+          <div className="w-full h-[407px] md:w-[604px] md:h-[550px] ">
             <Image src={summer2} alt="" className="w-full h-full object-fill" />
           </div>
         </div>
@@ -144,7 +146,7 @@ export default function Home() {
               <p className="text-sm text-center md:w-[469px]">Problems trying to resolve the conflict between
                 the two major realms of Classical physics: Newtonian mechanics  </p>
             </div>
-            <div className="w-full h-[1878px] sm:h-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-between items-center gap-10">
+            <div className=" h-[1878px] sm:h-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-between items-center gap-10">
               <Future_card image={image9} />
               <Future_card image={image10} />
               <Future_card image={image11} />
