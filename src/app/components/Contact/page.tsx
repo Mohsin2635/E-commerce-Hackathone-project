@@ -26,8 +26,8 @@ const Page = () => {
         <Navbar />
 
         {/* Contact */}
-        <div className="w-full h-full lg:flex md:px-[12%] justify-between items-center">
-          <div className="w-full h-[590px] md:h-[518px] py-6 md:py-3 space-y-5 md:space-y-2 place-items-center lg:place-items-start overflow-hidden">
+        <div className="w-full h-full lg:flex md:px-[12%] justify-between xl:justify-around 2xl:justify-evenly items-center">
+          <div className=" h-[590px] md:h-[518px] py-6 md:py-3 space-y-5 md:space-y-2 place-items-center lg:place-items-start overflow-hidden">
             <p className="font-bold text-[#252B42]">CONTACT US</p>
             <div className="w-[337px] h-[100px] md:h-[160px] py-6 text-[#252B42] text-2xl text-center lg:text-start font-bold md:text-5xl ">
               Get in touch today!
@@ -55,7 +55,7 @@ const Page = () => {
               <Image src={logo4} alt="LinkedIn logo" className="hover:-translate-y-1 duration-500 cursor-pointer" />
             </div>
           </div>
-          <div className="w-full place-items-center md:place-items-start ">
+          <div className=" place-items-center md:place-items-start ">
             <Image src={None} alt="None" className="w-[620px] h-full object-fill" />
           </div>
         </div>
