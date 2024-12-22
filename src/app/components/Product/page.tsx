@@ -85,7 +85,7 @@ const page = () => {
                     </div>
                 </div>
                 {/* pagination */}
-                <div className="w-full h-[1173px] md:h-[175px] md:py-0 py-10 place-items-center md:pt-0 pt-[110px] bg-[#FAFAFA] md:space-y-0 space-y-20 md:flex justify-between 2xl:justify-evenly items-center lg:px-[12%] px-[2%]">
+                <div className="w-full h-[1173px] hidden md:block md:h-[175px] md:py-0 py-10 place-items-center md:pt-0 pt-[110px] bg-[#FAFAFA] md:space-y-0 space-y-20 md:flex justify-between 2xl:justify-evenly items-center lg:px-[12%] px-[2%]">
                     <Image src={imaeg10} alt="" className="" />
                     <Image src={imaeg11} alt="" className="" />
                     <Image src={imaeg12} alt="" className="" />
